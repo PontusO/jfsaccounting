@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca75b36-43ee-4703-825d-1898f89c3657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fribok.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JFS Administration.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/JFS Administration.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/JFSDB.backup" beforeDir="false" afterPath="$PROJECT_DIR$/db/JFSDB.backup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/JFSDB.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db/JFSDB.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/JFSDB.script" beforeDir="false" afterPath="$PROJECT_DIR$/db/JFSDB.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/company/panel/SSAdressPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/company/panel/SSAdressPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/invoice/SSInvoiceDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/invoice/SSInvoiceDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/invoice/panel/SSInvoicePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/swedsoft/bookkeeping/gui/invoice/panel/SSInvoicePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JFS Administration.iws" beforeDir="false" afterPath="$PROJECT_DIR$/JFS Administration.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -97,22 +92,22 @@
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
     <state x="748" y="300" key="#Project_Structure/49.24.3391.1416@49.24.3391.1416" timestamp="1593867717679" />
-    <state width="2832" height="398" key="GridCell.Tab.0.bottom" timestamp="1593873525060">
+    <state width="2832" height="398" key="GridCell.Tab.0.bottom" timestamp="1593874427207">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
-    <state width="2832" height="398" key="GridCell.Tab.0.bottom/49.24.3391.1416@49.24.3391.1416" timestamp="1593873525060" />
-    <state width="2832" height="398" key="GridCell.Tab.0.center" timestamp="1593873525053">
+    <state width="2832" height="398" key="GridCell.Tab.0.bottom/49.24.3391.1416@49.24.3391.1416" timestamp="1593874427207" />
+    <state width="2832" height="398" key="GridCell.Tab.0.center" timestamp="1593874427206">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
-    <state width="2832" height="398" key="GridCell.Tab.0.center/49.24.3391.1416@49.24.3391.1416" timestamp="1593873525053" />
-    <state width="2832" height="398" key="GridCell.Tab.0.left" timestamp="1593873525049">
+    <state width="2832" height="398" key="GridCell.Tab.0.center/49.24.3391.1416@49.24.3391.1416" timestamp="1593874427206" />
+    <state width="2832" height="398" key="GridCell.Tab.0.left" timestamp="1593874427206">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
-    <state width="2832" height="398" key="GridCell.Tab.0.left/49.24.3391.1416@49.24.3391.1416" timestamp="1593873525049" />
-    <state width="2832" height="398" key="GridCell.Tab.0.right" timestamp="1593873525060">
+    <state width="2832" height="398" key="GridCell.Tab.0.left/49.24.3391.1416@49.24.3391.1416" timestamp="1593874427206" />
+    <state width="2832" height="398" key="GridCell.Tab.0.right" timestamp="1593874427206">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
-    <state width="2832" height="398" key="GridCell.Tab.0.right/49.24.3391.1416@49.24.3391.1416" timestamp="1593873525060" />
+    <state width="2832" height="398" key="GridCell.Tab.0.right/49.24.3391.1416@49.24.3391.1416" timestamp="1593874427206" />
     <state width="2832" height="238" key="GridCell.Tab.1.bottom" timestamp="1593871401443">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
@@ -133,9 +128,9 @@
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
     <state x="951" y="330" width="1147" height="979" key="find.popup/49.24.3391.1416@49.24.3391.1416" timestamp="1593869121035" />
-    <state x="924" y="338" width="672" height="677" key="run.anything.popup" timestamp="1593873524956">
+    <state x="924" y="338" width="672" height="677" key="run.anything.popup" timestamp="1593874427162">
       <screen x="49" y="24" width="3391" height="1416" />
     </state>
-    <state x="924" y="338" width="672" height="677" key="run.anything.popup/49.24.3391.1416@49.24.3391.1416" timestamp="1593873524956" />
+    <state x="924" y="338" width="672" height="677" key="run.anything.popup/49.24.3391.1416@49.24.3391.1416" timestamp="1593874427162" />
   </component>
 </project>
