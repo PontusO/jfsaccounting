@@ -82,6 +82,7 @@ public class SSInvoiceDialog {
                 iDialog.closeDialog();
             }
         });
+
         iDialog.addWindowListener(
                 new WindowAdapter() {
             @Override
@@ -90,10 +91,12 @@ public class SSInvoiceDialog {
                     return;
                 }
 
-                if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
-                        "invoiceframe.saveonclose")
-                        != JOptionPane.OK_OPTION) {
-                    return;
+                if (iPanel.isUpdated()) {
+                    if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
+                            "invoiceframe.saveonclose")
+                            != JOptionPane.OK_OPTION) {
+                        return;
+                    }
                 }
 
                 iSaveAction.actionPerformed(null);
@@ -163,11 +166,14 @@ public class SSInvoiceDialog {
                     SSPostLock.removeLock(lockString);
                     return;
                 }
-                if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
-                        "invoiceframe.saveonclose")
-                        != JOptionPane.OK_OPTION) {
-                    SSPostLock.removeLock(lockString);
-                    return;
+
+                if (iPanel.isUpdated()) {
+                    if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
+                            "invoiceframe.saveonclose")
+                            != JOptionPane.OK_OPTION) {
+                        SSPostLock.removeLock(lockString);
+                        return;
+                    }
                 }
 
                 iSaveAction.actionPerformed(null);
@@ -249,10 +255,12 @@ public class SSInvoiceDialog {
                     return;
                 }
 
-                if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
-                        "invoiceframe.saveonclose")
-                        != JOptionPane.OK_OPTION) {
-                    return;
+                if (iPanel.isUpdated()) {
+                    if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
+                            "invoiceframe.saveonclose")
+                            != JOptionPane.OK_OPTION) {
+                        return;
+                    }
                 }
 
                 iSaveAction.actionPerformed(null);
@@ -344,11 +352,13 @@ public class SSInvoiceDialog {
                     return;
                 }
 
-                if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
-                        "invoiceframe.saveonclose")
-                        != JOptionPane.OK_OPTION) {
-                    SSPostLock.removeLock(lockString);
-                    return;
+                if (iPanel.isUpdated()) {
+                    if (SSQueryDialog.showDialog(iMainFrame, SSBundle.getBundle(),
+                            "invoiceframe.saveonclose")
+                            != JOptionPane.OK_OPTION) {
+                        SSPostLock.removeLock(lockString);
+                        return;
+                    }
                 }
 
                 iSaveAction.actionPerformed(null);

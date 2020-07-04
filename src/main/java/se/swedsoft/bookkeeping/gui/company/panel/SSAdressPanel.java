@@ -33,6 +33,8 @@ public class SSAdressPanel extends JPanel {
 
     private JTextField iCity;
 
+    private boolean panelIsUpdated;
+
     // /////////////////////////////////////////////////////////
 
     /**
@@ -218,10 +220,32 @@ public class SSAdressPanel extends JPanel {
         iZipCode.setEditable(enabled);
     }
 
+    /**
+     * All key listeners must call this method.
+     */
+    public void panelUpdate() {
+        panelIsUpdated = true;
+    }
+
+    /**
+     *
+     * @param None
+     *
+     * @return Status whether the panel has been updated or not.
+     */
+    public boolean panelIsUpdated() {
+        return panelIsUpdated;
+    }
+
+    /**
+     *
+     *  Add local key listeners.
+     */
     public void addKeyListeners() {
         iName.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                panelUpdate();
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     SwingUtilities.invokeLater(new Runnable() {
                         public void run() {
@@ -235,6 +259,7 @@ public class SSAdressPanel extends JPanel {
         iAddress.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                panelUpdate();
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     SwingUtilities.invokeLater(new Runnable() {
                         public void run() {
@@ -248,6 +273,7 @@ public class SSAdressPanel extends JPanel {
         iStreet.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                panelUpdate();
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     SwingUtilities.invokeLater(new Runnable() {
                         public void run() {
@@ -261,6 +287,7 @@ public class SSAdressPanel extends JPanel {
         iZipCode.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                panelUpdate();
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     SwingUtilities.invokeLater(new Runnable() {
                         public void run() {
@@ -274,6 +301,7 @@ public class SSAdressPanel extends JPanel {
         iCity.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                panelUpdate();
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     SwingUtilities.invokeLater(new Runnable() {
                         public void run() {
